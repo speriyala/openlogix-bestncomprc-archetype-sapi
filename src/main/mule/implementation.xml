@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<flow name="implementationFlow" doc:id="f93751de-5dc5-43e8-8027-4352b2807b97" >
+		<flow-ref doc:name="getHealth" doc:id="877c2a39-d05f-47b9-a62c-be35ea26d1de" name="get:\health:best-practise-config"/>
+	</flow>
+	<flow name="implementationFlow1" doc:id="2d4d7101-2c6f-4793-972a-805e97074b90" >
+		<flow-ref doc:name="postHealth" doc:id="a3b6b2f6-1e81-414d-97f9-f00c9bb9356a" name="post:\health:best-practise-config"/>
+	</flow>
+</mule>
